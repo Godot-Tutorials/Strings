@@ -12,7 +12,7 @@ func _ready():
 	var stringArray = stringValue.split('')
 	var stringInsert = stringValue.insert(0, 'New ')
 	
-	print("\nCharacter of string in first position", stringValue[0])
+	print("\nCharacter of string in first position: ", stringValue[0])
 	print("\nLength of String: ", stringLength)
 	print("\nArray item in position 0: ", stringArray[0])
 	print("\nNew String with inserted value: ", stringInsert)
